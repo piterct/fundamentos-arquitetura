@@ -1,4 +1,4 @@
-﻿namespace OOP.Classe_x_Objeto
+﻿namespace OrientacaoObjetos._01__Classe_x_Objeto
 {
     // Definição de Classe
     public class Casa
