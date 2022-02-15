@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace SOLID._02___OCP.OCP.Solucao
 {
