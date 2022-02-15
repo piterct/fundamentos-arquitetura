@@ -6,10 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="01 - SRP\SRP.Solucao\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>
 
