@@ -1,4 +1,5 @@
-﻿using System.Net.Mail;
+﻿using SOLID._05___DIP.DIP.Solucao.Interfaces;
+using System.Net.Mail;
 
 namespace SOLID._05___DIP.DIP.Solucao
 {
