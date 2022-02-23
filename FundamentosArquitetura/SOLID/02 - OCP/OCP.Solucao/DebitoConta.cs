@@ -15,7 +15,7 @@ namespace SOLID._02___OCP.OCP.Solucao
             NumeroTransacao = new string(Enumerable.Repeat(chars, 15)
               .Select(s => s[random.Next(s.Length)]).ToArray());
 
-            // Numero de transacao formatado
+            /// Numero de transacao formatado
             return NumeroTransacao;
         }
     }
