@@ -1,3 +1,4 @@
+using DemoDI.Cases;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,6 +25,13 @@ namespace DemoDI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            #region VidaReal
+
+            services.AddScoped<IClienteRepository, ClienteRepository>();
+            services.AddScoped<IClienteServices, ClienteServices>();
+
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
