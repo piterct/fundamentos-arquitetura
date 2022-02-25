@@ -42,6 +42,12 @@ namespace DemoDI
             services.AddScoped<IClienteServices, ClienteServices>();
 
             #endregion
+
+            #region Generics
+
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
