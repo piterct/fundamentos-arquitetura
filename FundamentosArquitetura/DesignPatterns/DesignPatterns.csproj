@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="01 -Creatinal\1.1 - Abstract Factory\" />
+  </ItemGroup>
+
 </Project>
