@@ -1,4 +1,5 @@
 ﻿using DesignPatterns._01__Creatinal._1._1___Abstract_Factory;
+using DesignPatterns._01__Creatinal._1._2___Factory_Method;
 using System;
 
 namespace DesignPatterns
@@ -39,30 +40,30 @@ namespace DesignPatterns
                 case '1':
                     ExecucaoAbstractFactory.Executar();
                     break;
-                //case '2':
-                //    ExecucaoFactoryMethod.Executar();
-                //    break;
-                //case '3':
-                //    ExecucaoSingleton.Executar();
-                //    break;
-                //case '4':
-                //    ExecucaoAdapter.Executar();
-                //    break;
-                //case '5':
-                //    ExecucaoFacade.Executar();
-                //    break;
-                //case '6':
-                //    ExecucaoComposite.Executar();
-                //    break;
-                //case '7':
-                //    ExecucaoCommand.Executar();
-                //    break;
-                //case '8':
-                //    ExecucaoStrategy.Executar();
-                //    break;
-                //case '9':
-                //    ExecucaoObserver.Executar();
-                //    break;
+                case '2':
+                    ExecucaoFactoryMethod.Executar();
+                    break;
+                    //case '3':
+                    //    ExecucaoSingleton.Executar();
+                    //    break;
+                    //case '4':
+                    //    ExecucaoAdapter.Executar();
+                    //    break;
+                    //case '5':
+                    //    ExecucaoFacade.Executar();
+                    //    break;
+                    //case '6':
+                    //    ExecucaoComposite.Executar();
+                    //    break;
+                    //case '7':
+                    //    ExecucaoCommand.Executar();
+                    //    break;
+                    //case '8':
+                    //    ExecucaoStrategy.Executar();
+                    //    break;
+                    //case '9':
+                    //    ExecucaoObserver.Executar();
+                    //    break;
             }
 
             Console.ReadKey();
