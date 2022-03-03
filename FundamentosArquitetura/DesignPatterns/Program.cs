@@ -1,5 +1,6 @@
 ﻿using DesignPatterns._01__Creatinal._1._1___Abstract_Factory;
 using DesignPatterns._01__Creatinal._1._2___Factory_Method;
+using DesignPatterns._01__Creatinal._1._3_Singleton;
 using System;
 
 namespace DesignPatterns
@@ -43,9 +44,9 @@ namespace DesignPatterns
                 case '2':
                     ExecucaoFactoryMethod.Executar();
                     break;
-                    //case '3':
-                    //    ExecucaoSingleton.Executar();
-                    //    break;
+                case '3':
+                    ExecucaoSingleton.Executar();
+                    break;
                     //case '4':
                     //    ExecucaoAdapter.Executar();
                     //    break;
