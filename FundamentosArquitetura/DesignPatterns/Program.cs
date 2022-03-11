@@ -3,6 +3,7 @@ using DesignPatterns._01__Creatinal._1._2___Factory_Method;
 using DesignPatterns._01__Creatinal._1._3_Singleton;
 using DesignPatterns._02___Structural._2._1___Adapter;
 using DesignPatterns._02___Structural._2._2___Facade;
+using DesignPatterns._02___Structural._2._3___Composite;
 using System;
 
 namespace DesignPatterns
@@ -55,9 +56,9 @@ namespace DesignPatterns
                 case '5':
                     ExecucaoFacade.Executar();
                     break;
-                    //case '6':
-                    //    ExecucaoComposite.Executar();
-                    //    break;
+                case '6':
+                    ExecucaoComposite.Executar();
+                    break;
                     //case '7':
                     //    ExecucaoCommand.Executar();
                     //    break;
