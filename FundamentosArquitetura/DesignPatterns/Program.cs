@@ -4,6 +4,7 @@ using DesignPatterns._01__Creatinal._1._3_Singleton;
 using DesignPatterns._02___Structural._2._1___Adapter;
 using DesignPatterns._02___Structural._2._2___Facade;
 using DesignPatterns._02___Structural._2._3___Composite;
+using DesignPatterns._03___Behavioral._3._1___Command;
 using System;
 
 namespace DesignPatterns
@@ -59,9 +60,9 @@ namespace DesignPatterns
                 case '6':
                     ExecucaoComposite.Executar();
                     break;
-                    //case '7':
-                    //    ExecucaoCommand.Executar();
-                    //    break;
+                case '7':
+                    ExecucaoCommand.Executar();
+                    break;
                     //case '8':
                     //    ExecucaoStrategy.Executar();
                     //    break;
